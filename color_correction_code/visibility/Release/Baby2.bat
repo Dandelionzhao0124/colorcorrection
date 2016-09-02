@@ -1,1 +1,0 @@
-visibility.exe H:\intrinsic_image_work_record\data_NEW Baby2 view1 view5E1
