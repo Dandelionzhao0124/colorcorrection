@@ -1,0 +1,132 @@
+﻿Build started 2016/2/28 19:50:41.
+     1>Project "D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_Build\3rdParty\tiff\tiff.vcxproj" on node 4 (Rebuild target(s)).
+     1>CustomBuild:
+         Building Custom Rule D:/RQRunning/ColorCorrection/ZWJ/Disparity/ADCensus-master/ADCensus_CMake/3rdParty/tiff/CMakeLists.txt
+         CMake does not need to re-run because D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_Build\3rdParty\tiff\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"tiff.dir\Debug\\" /Fd"tiff.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt "D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_aux.c" "D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_close.c" "D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_codec.c" "D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_color.c" "D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_compress.c" "D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_dir.c" "D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_dirinfo.c" "D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_dirread.c" "D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_dirwrite.c" "D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_dumpmode.c" "D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_error.c" "D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_extension.c" "D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_fax3.c" "D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_fax3sm.c" "D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_flush.c" "D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_getimage.c" "D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_jbig.c" "D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_luv.c" "D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_lzw.c" "D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_next.c" "D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_open.c" "D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_packbits.c" "D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_pixarlog.c" "D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_predict.c" "D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_print.c" "D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_read.c" "D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_strip.c" "D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_swab.c" "D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_thunder.c" "D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_tile.c" "D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_unix.c" "D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_version.c" "D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_warning.c" "D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_write.c" "D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_zip.c"
+         tif_aux.c
+     1>D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_aux.c(41): warning C4267: 'initializing' : conversion from 'size_t' to 'tsize_t', possible loss of data
+         tif_close.c
+         tif_codec.c
+         tif_color.c
+         tif_compress.c
+     1>D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_compress.c(197): warning C4267: 'function' : conversion from 'size_t' to 'tsize_t', possible loss of data
+         tif_dir.c
+     1>D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_dir.c(49): warning C4267: 'initializing' : conversion from 'size_t' to 'tsize_t', possible loss of data
+     1>D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_dir.c(125): warning C4244: 'return' : conversion from '__int64' to 'uint32', possible loss of data
+         tif_dirinfo.c
+     1>D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_dirinfo.c(548): warning C4267: 'function' : conversion from 'size_t' to 'int', possible loss of data
+     1>D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_dirinfo.c(797): warning C4133: 'function' : incompatible types - from 'size_t *' to 'unsigned int *'
+     1>D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_dirinfo.c(799): warning C4996: '_lfind': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _lfind. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\search.h(53) : see declaration of '_lfind'
+         tif_dirread.c
+         tif_dirwrite.c
+     1>D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_dirwrite.c(180): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_dirwrite.c(491): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_dirwrite.c(1189): warning C4334: '<<' : result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+         tif_dumpmode.c
+         tif_error.c
+         tif_extension.c
+     1>D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_extension.c(105): warning C4267: 'function' : conversion from 'size_t' to 'tsize_t', possible loss of data
+         tif_fax3.c
+     1>D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_fax3.c(260): warning C4244: '-=' : conversion from '__int64' to 'tsize_t', possible loss of data
+     1>D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_fax3.c(263): warning C4244: '-=' : conversion from '__int64' to 'tsize_t', possible loss of data
+     1>D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_fax3.c(313): warning C4244: '-=' : conversion from '__int64' to 'tsize_t', possible loss of data
+     1>D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_fax3.c(316): warning C4244: '-=' : conversion from '__int64' to 'tsize_t', possible loss of data
+     1>D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_fax3.c(1462): warning C4244: '-=' : conversion from '__int64' to 'tsize_t', possible loss of data
+     1>D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_fax3.c(1465): warning C4244: '-=' : conversion from '__int64' to 'tsize_t', possible loss of data
+     1>D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_fax3.c(1577): warning C4244: '-=' : conversion from '__int64' to 'tsize_t', possible loss of data
+     1>D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_fax3.c(1580): warning C4244: '-=' : conversion from '__int64' to 'tsize_t', possible loss of data
+         tif_fax3sm.c
+         tif_flush.c
+         tif_getimage.c
+         tif_jbig.c
+         tif_luv.c
+     1>D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_luv.c(1167): warning C4267: 'initializing' : conversion from 'size_t' to 'uint32', possible loss of data
+         tif_lzw.c
+         tif_next.c
+         Generating Code...
+         Compiling...
+         tif_open.c
+     1>D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_open.c(161): warning C4267: 'function' : conversion from 'size_t' to 'tsize_t', possible loss of data
+         tif_packbits.c
+     1>D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_packbits.c(101): warning C4244: '=' : conversion from '__int64' to 'long', possible loss of data
+     1>D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_packbits.c(102): warning C4244: '+=' : conversion from '__int64' to 'tsize_t', possible loss of data
+     1>D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_packbits.c(110): warning C4244: '+=' : conversion from '__int64' to 'tsize_t', possible loss of data
+     1>D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_packbits.c(186): warning C4244: '+=' : conversion from '__int64' to 'tsize_t', possible loss of data
+         tif_pixarlog.c
+         tif_predict.c
+         tif_print.c
+         tif_read.c
+         tif_strip.c
+     1>D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_strip.c(41): warning C4267: 'initializing' : conversion from 'size_t' to 'uint32', possible loss of data
+     1>D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_strip.c(54): warning C4267: 'initializing' : conversion from 'size_t' to 'uint32', possible loss of data
+         tif_swab.c
+         tif_thunder.c
+         tif_tile.c
+     1>D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_tile.c(41): warning C4267: 'initializing' : conversion from 'size_t' to 'uint32', possible loss of data
+     1>D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_tile.c(54): warning C4267: 'initializing' : conversion from 'size_t' to 'uint32', possible loss of data
+         tif_unix.c
+     1>D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_unix.c(58): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _read. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\io.h(316) : see declaration of 'read'
+     1>D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_unix.c(64): warning C4996: 'write': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _write. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\io.h(321) : see declaration of 'write'
+     1>D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_unix.c(70): warning C4996: 'lseek': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _lseek. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\io.h(313) : see declaration of 'lseek'
+     1>D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_unix.c(76): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\io.h(305) : see declaration of 'close'
+     1>D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_unix.c(171): warning C4996: 'open': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _open. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\io.h(315) : see declaration of 'open'
+     1>D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_unix.c(180): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\io.h(305) : see declaration of 'close'
+     1>D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_unix.c(233): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\io.h(305) : see declaration of 'close'
+         tif_version.c
+         tif_warning.c
+         tif_write.c
+     1>D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_write.c(633): warning C4018: '>=' : signed/unsigned mismatch
+         tif_zip.c
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\Lib.exe /OUT:"D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_Build\lib\Debug\tiff.lib" /NOLOGO /MACHINE:X64 tiff.dir\Debug\tif_aux.obj
+         tiff.dir\Debug\tif_close.obj
+         tiff.dir\Debug\tif_codec.obj
+         tiff.dir\Debug\tif_color.obj
+         tiff.dir\Debug\tif_compress.obj
+         tiff.dir\Debug\tif_dir.obj
+         tiff.dir\Debug\tif_dirinfo.obj
+         tiff.dir\Debug\tif_dirread.obj
+         tiff.dir\Debug\tif_dirwrite.obj
+         tiff.dir\Debug\tif_dumpmode.obj
+         tiff.dir\Debug\tif_error.obj
+         tiff.dir\Debug\tif_extension.obj
+         tiff.dir\Debug\tif_fax3.obj
+         tiff.dir\Debug\tif_fax3sm.obj
+         tiff.dir\Debug\tif_flush.obj
+         tiff.dir\Debug\tif_getimage.obj
+         tiff.dir\Debug\tif_jbig.obj
+         tiff.dir\Debug\tif_luv.obj
+         tiff.dir\Debug\tif_lzw.obj
+         tiff.dir\Debug\tif_next.obj
+         tiff.dir\Debug\tif_open.obj
+         tiff.dir\Debug\tif_packbits.obj
+         tiff.dir\Debug\tif_pixarlog.obj
+         tiff.dir\Debug\tif_predict.obj
+         tiff.dir\Debug\tif_print.obj
+         tiff.dir\Debug\tif_read.obj
+         tiff.dir\Debug\tif_strip.obj
+         tiff.dir\Debug\tif_swab.obj
+         tiff.dir\Debug\tif_thunder.obj
+         tiff.dir\Debug\tif_tile.obj
+         tiff.dir\Debug\tif_unix.obj
+         tiff.dir\Debug\tif_version.obj
+         tiff.dir\Debug\tif_warning.obj
+         tiff.dir\Debug\tif_write.obj
+         tiff.dir\Debug\tif_zip.obj
+         tiff.vcxproj -> D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_Build\lib\Debug\tiff.lib
+     1>Done Building Project "D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_Build\3rdParty\tiff\tiff.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.73

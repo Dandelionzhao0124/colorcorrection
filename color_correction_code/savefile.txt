@@ -1,0 +1,7 @@
+with file('r_lrgb.txt', 'w') as outfile:
+        for row in r:
+            for col in row:
+                np.savetxt(outfile, col, fmt = "%.8f")
+    with file('s_lrgb.txt', 'w') as outfile:
+        for row in s:
+            np.savetxt(outfile, row, fmt = "%.8f")

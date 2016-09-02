@@ -1,0 +1,101 @@
+Determining size of off64_t failed with the following output:
+Change Dir: D:/RQRunning/ColorCorrection/ZWJ/Disparity/ADCensus-master/ADCensus_Build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2188108631
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.50727.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec2188108631, Configuration: Debug x64 ------
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.50727.1 for x64
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D _LARGEFILE64_SOURCE=1 /D HAVE_SYS_TYPES_H /D HAVE_STDINT_H /D HAVE_STDDEF_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2188108631.dir\Debug\\" /Fd"cmTryCompileExec2188108631.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt "D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_Build\CMakeFiles\CheckTypeSize\OFF64_T.c"
+1>  
+1>  OFF64_T.c
+1>D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_Build\CMakeFiles\CheckTypeSize\OFF64_T.c(19): error C2065: 'off64_t' : undeclared identifier
+1>D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_Build\CMakeFiles\CheckTypeSize\OFF64_T.c(20): error C2065: 'off64_t' : undeclared identifier
+1>D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_Build\CMakeFiles\CheckTypeSize\OFF64_T.c(21): error C2065: 'off64_t' : undeclared identifier
+1>D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_Build\CMakeFiles\CheckTypeSize\OFF64_T.c(22): error C2065: 'off64_t' : undeclared identifier
+1>D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_Build\CMakeFiles\CheckTypeSize\OFF64_T.c(23): error C2065: 'off64_t' : undeclared identifier
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
+D:/RQRunning/ColorCorrection/ZWJ/Disparity/ADCensus-master/ADCensus_Build/CMakeFiles/CheckTypeSize/OFF64_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(off64_t))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function fseeko exists failed with the following output:
+Change Dir: D:/RQRunning/ColorCorrection/ZWJ/Disparity/ADCensus-master/ADCensus_Build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec1041781804
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.50727.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec1041781804, Configuration: Debug x64 ------
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.50727.1 for x64
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fseeko /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1041781804.dir\Debug\\" /Fd"cmTryCompileExec1041781804.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>CheckFunctionExists.obj : error LNK2019: unresolved external symbol fseeko referenced in function main
+1>D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_Build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1041781804.exe : fatal error LNK1120: 1 unresolved externals
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the include file unistd.h exists failed with the following output:
+Change Dir: D:/RQRunning/ColorCorrection/ZWJ/Disparity/ADCensus-master/ADCensus_Build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2101828445
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.50727.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec2101828445, Configuration: Debug x64 ------
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.50727.1 for x64
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2101828445.dir\Debug\\" /Fd"cmTryCompileExec2101828445.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt CheckIncludeFile.c
+1>  
+1>  CheckIncludeFile.c
+1>CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
+

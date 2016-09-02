@@ -1,0 +1,55 @@
+﻿Build started 2016/2/28 19:51:11.
+     1>Project "D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_Build\libStereo\Stereo.vcxproj" on node 4 (Rebuild target(s)).
+     1>CustomBuild:
+         Building Custom Rule D:/RQRunning/ColorCorrection/ZWJ/Disparity/ADCensus-master/ADCensus_CMake/libStereo/CMakeLists.txt
+         CMake does not need to re-run because D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_Build\libStereo\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I"D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\libStereo\.." /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Stereo.dir\Release\\" /Fd"Stereo.dir\Release\vc110.pdb" /Gd /TP /errorReport:prompt "D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\libStereo\patch.cpp" "D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\libStereo\scanlineOptimization.cpp" "D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\libStereo\occlusion.cpp"
+         patch.cpp
+         scanlineOptimization.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\xutility(2646): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\xutility(2669) : see reference to function template instantiation 'void std::_Fill<_Iter,_Ty>(_FwdIt,_FwdIt,const _Ty &)' being compiled
+                 with
+                 [
+                     _Iter=float *,
+                     _Ty=int,
+                     _FwdIt=float *
+                 ]
+                 D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\libStereo\scanlineOptimization.cpp(200) : see reference to function template instantiation 'void std::fill<float*,int>(_FwdIt,_FwdIt,const _Ty &)' being compiled
+                 with
+                 [
+                     _FwdIt=float *,
+                     _Ty=int
+                 ]
+         occlusion.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\xutility(2646): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\xutility(2669) : see reference to function template instantiation 'void std::_Fill<float*,_Ty>(_FwdIt,_FwdIt,const _Ty &)' being compiled
+                 with
+                 [
+                     _Ty=int,
+                     _FwdIt=float *
+                 ]
+                 D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\libStereo\occlusion.cpp(240) : see reference to function template instantiation 'void std::fill<std::_Vector_iterator<_Myvec>,int>(_FwdIt,_FwdIt,const _Ty &)' being compiled
+                 with
+                 [
+                     _Myvec=std::_Vector_val<std::_Simple_types<float>>,
+                     _FwdIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<float>>>,
+                     _Ty=int
+                 ]
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\Lib.exe /OUT:"D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_Build\lib\Release\Stereo.lib" /NOLOGO /MACHINE:X64 Stereo.dir\Release\patch.obj
+         Stereo.dir\Release\scanlineOptimization.obj
+         Stereo.dir\Release\occlusion.obj
+     1>patch.obj : warning LNK4006: "float __cdecl ad(int,int,int,int,class PARAMETERS const &)" (?ad@@YAMHHHHAEBVPARAMETERS@@@Z) already defined in occlusion.obj; second definition ignored
+     1>patch.obj : warning LNK4006: "float __cdecl adCensus(int,int,int,int,class PARAMETERS const &)" (?adCensus@@YAMHHHHAEBVPARAMETERS@@@Z) already defined in occlusion.obj; second definition ignored
+     1>patch.obj : warning LNK4006: "float * __cdecl agregateCosts1D(float const *,int,int,float *,class PARAMETERS const &)" (?agregateCosts1D@@YAPEAMPEBMHHPEAMAEBVPARAMETERS@@@Z) already defined in occlusion.obj; second definition ignored
+     1>patch.obj : warning LNK4006: "void __cdecl agregateCosts2D(float *,bool,class PARAMETERS const &)" (?agregateCosts2D@@YAXPEAM_NAEBVPARAMETERS@@@Z) already defined in occlusion.obj; second definition ignored
+     1>patch.obj : warning LNK4006: "float __cdecl census(int,int,int,int,class PARAMETERS const &)" (?census@@YAMHHHHAEBVPARAMETERS@@@Z) already defined in occlusion.obj; second definition ignored
+     1>patch.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         Stereo.vcxproj -> D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_Build\lib\Release\Stereo.lib
+     1>Done Building Project "D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_Build\libStereo\Stereo.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.84

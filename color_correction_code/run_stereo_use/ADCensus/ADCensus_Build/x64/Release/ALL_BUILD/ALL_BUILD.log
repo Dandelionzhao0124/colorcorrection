@@ -1,0 +1,11 @@
+﻿Build started 2016/2/28 19:51:23.
+     1>Project "D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_Build\ALL_BUILD.vcxproj" on node 4 (Rebuild target(s)).
+     1>CustomBuild:
+         Building Custom Rule D:/RQRunning/ColorCorrection/ZWJ/Disparity/ADCensus-master/ADCensus_CMake/CMakeLists.txt
+         CMake does not need to re-run because D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_Build\CMakeFiles\generate.stamp is up-to-date.
+         Build all projects
+     1>Done Building Project "D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_Build\ALL_BUILD.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.12

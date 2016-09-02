@@ -1,0 +1,12 @@
+﻿Build started 2016/5/20 14:08:44.
+     1>Project "H:\intrinsic_image_work_record\code\ColorSimilarity\ColorSimilarity\ColorSimilarity.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\intrinsic_image_work_record\code\ColorSimilarity\Release\ColorSimilarity.exe" /INCREMENTAL:NO /NOLOGO opencv_calib3d245.lib opencv_contrib245.lib opencv_core245.lib opencv_features2d245.lib opencv_flann245.lib opencv_gpu245.lib opencv_highgui245.lib opencv_imgproc245.lib opencv_legacy245.lib opencv_ml245.lib opencv_objdetect245.lib opencv_ts245.lib opencv_video245.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"H:\intrinsic_image_work_record\code\ColorSimilarity\Release\ColorSimilarity.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\intrinsic_image_work_record\code\ColorSimilarity\Release\ColorSimilarity.lib" /MACHINE:X86 /SAFESEH Release\CS.obj
+         Generating code
+         Finished generating code
+         ColorSimilarity.vcxproj -> H:\intrinsic_image_work_record\code\ColorSimilarity\Release\ColorSimilarity.exe
+     1>Done Building Project "H:\intrinsic_image_work_record\code\ColorSimilarity\ColorSimilarity\ColorSimilarity.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.14

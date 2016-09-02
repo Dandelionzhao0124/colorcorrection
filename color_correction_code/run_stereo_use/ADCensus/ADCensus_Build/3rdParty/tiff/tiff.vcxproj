@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{648CAB76-77E8-4B16-A3BB-74FEF2872632}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>tiff</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_Build\lib\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">tiff.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">tiff</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_Build\lib\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">tiff.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">tiff</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_Build\lib\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">tiff.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">tiff</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_Build\lib\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">tiff.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">tiff</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat></DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat></DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/RQRunning/ColorCorrection/ZWJ/Disparity/ADCensus-master/ADCensus_CMake/3rdParty/tiff/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HD:/RQRunning/ColorCorrection/ZWJ/Disparity/ADCensus-master/ADCensus_CMake -BD:/RQRunning/ColorCorrection/ZWJ/Disparity/ADCensus-master/ADCensus_Build --check-stamp-file D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_Build\3rdParty\tiff\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/RQRunning/ColorCorrection/ZWJ/Disparity/ADCensus-master/ADCensus_CMake/3rdParty/tiff/CMakeLists.txt;D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\CMakeLists.txt;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindTIFF.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_Build\3rdParty\tiff\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/RQRunning/ColorCorrection/ZWJ/Disparity/ADCensus-master/ADCensus_CMake/3rdParty/tiff/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HD:/RQRunning/ColorCorrection/ZWJ/Disparity/ADCensus-master/ADCensus_CMake -BD:/RQRunning/ColorCorrection/ZWJ/Disparity/ADCensus-master/ADCensus_Build --check-stamp-file D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_Build\3rdParty\tiff\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/RQRunning/ColorCorrection/ZWJ/Disparity/ADCensus-master/ADCensus_CMake/3rdParty/tiff/CMakeLists.txt;D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\CMakeLists.txt;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindTIFF.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_Build\3rdParty\tiff\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/RQRunning/ColorCorrection/ZWJ/Disparity/ADCensus-master/ADCensus_CMake/3rdParty/tiff/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HD:/RQRunning/ColorCorrection/ZWJ/Disparity/ADCensus-master/ADCensus_CMake -BD:/RQRunning/ColorCorrection/ZWJ/Disparity/ADCensus-master/ADCensus_Build --check-stamp-file D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_Build\3rdParty\tiff\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/RQRunning/ColorCorrection/ZWJ/Disparity/ADCensus-master/ADCensus_CMake/3rdParty/tiff/CMakeLists.txt;D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\CMakeLists.txt;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindTIFF.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_Build\3rdParty\tiff\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/RQRunning/ColorCorrection/ZWJ/Disparity/ADCensus-master/ADCensus_CMake/3rdParty/tiff/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HD:/RQRunning/ColorCorrection/ZWJ/Disparity/ADCensus-master/ADCensus_CMake -BD:/RQRunning/ColorCorrection/ZWJ/Disparity/ADCensus-master/ADCensus_Build --check-stamp-file D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_Build\3rdParty\tiff\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/RQRunning/ColorCorrection/ZWJ/Disparity/ADCensus-master/ADCensus_CMake/3rdParty/tiff/CMakeLists.txt;D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\CMakeLists.txt;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindTIFF.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_Build\3rdParty\tiff\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\t4.h" />
+    <ClInclude Include="D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_config.h" />
+    <ClInclude Include="D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_config.vc.h" />
+    <ClInclude Include="D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_dir.h" />
+    <ClInclude Include="D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_fax3.h" />
+    <ClInclude Include="D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tiff.h" />
+    <ClInclude Include="D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tiffconf.h" />
+    <ClInclude Include="D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tiffconf.vc.h" />
+    <ClInclude Include="D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tiffio.h" />
+    <ClInclude Include="D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tiffiop.h" />
+    <ClInclude Include="D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tiffvers.h" />
+    <ClInclude Include="D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_predict.h" />
+    <ClInclude Include="D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\uvcode.h" />
+    <ClCompile Include="D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_aux.c"  />
+    <ClCompile Include="D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_close.c"  />
+    <ClCompile Include="D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_codec.c"  />
+    <ClCompile Include="D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_color.c"  />
+    <ClCompile Include="D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_compress.c"  />
+    <ClCompile Include="D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_dir.c"  />
+    <ClCompile Include="D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_dirinfo.c"  />
+    <ClCompile Include="D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_dirread.c"  />
+    <ClCompile Include="D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_dirwrite.c"  />
+    <ClCompile Include="D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_dumpmode.c"  />
+    <ClCompile Include="D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_error.c"  />
+    <ClCompile Include="D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_extension.c"  />
+    <ClCompile Include="D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_fax3.c"  />
+    <ClCompile Include="D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_fax3sm.c"  />
+    <ClCompile Include="D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_flush.c"  />
+    <ClCompile Include="D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_getimage.c"  />
+    <ClCompile Include="D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_jbig.c"  />
+    <ClCompile Include="D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_luv.c"  />
+    <ClCompile Include="D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_lzw.c"  />
+    <ClCompile Include="D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_next.c"  />
+    <ClCompile Include="D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_open.c"  />
+    <ClCompile Include="D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_packbits.c"  />
+    <ClCompile Include="D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_pixarlog.c"  />
+    <ClCompile Include="D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_predict.c"  />
+    <ClCompile Include="D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_print.c"  />
+    <ClCompile Include="D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_read.c"  />
+    <ClCompile Include="D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_strip.c"  />
+    <ClCompile Include="D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_swab.c"  />
+    <ClCompile Include="D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_thunder.c"  />
+    <ClCompile Include="D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_tile.c"  />
+    <ClCompile Include="D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_unix.c"  />
+    <ClCompile Include="D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_version.c"  />
+    <ClCompile Include="D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_warning.c"  />
+    <ClCompile Include="D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_write.c"  />
+    <ClCompile Include="D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\3rdParty\tiff\tif_zip.c"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/RQRunning/ColorCorrection/ZWJ/Disparity/ADCensus-master/ADCensus_Build/ZERO_CHECK.vcxproj">
+      <Project>EFBF56BC-01F1-4B7B-9189-0CBA60874578</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

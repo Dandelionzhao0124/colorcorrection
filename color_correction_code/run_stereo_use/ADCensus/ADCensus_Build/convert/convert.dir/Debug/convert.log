@@ -1,0 +1,17 @@
+﻿Build started 2016/2/28 19:50:51.
+     1>Project "D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_Build\convert\convert.vcxproj" on node 3 (Rebuild target(s)).
+     1>CustomBuild:
+         Building Custom Rule D:/RQRunning/ColorCorrection/ZWJ/Disparity/ADCensus-master/ADCensus_CMake/convert/CMakeLists.txt
+         CMake does not need to re-run because D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_Build\convert\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I"D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\convert\.." /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"convert.dir\Debug\\" /Fd"convert.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt "D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\convert\convert.cpp"
+         convert.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_Build\bin\Debug\convert.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\lib\Debug\IO.lib ..\lib\Debug\tiff.lib ..\lib\Debug\png.lib ..\lib\Debug\zlibd.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/RQRunning/ColorCorrection/ZWJ/Disparity/ADCensus-master/ADCensus_Build/bin/Debug/convert.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/RQRunning/ColorCorrection/ZWJ/Disparity/ADCensus-master/ADCensus_Build/lib/Debug/convert.lib" /MACHINE:X64  /machine:x64 /debug convert.dir\Debug\convert.obj
+            Creating library D:/RQRunning/ColorCorrection/ZWJ/Disparity/ADCensus-master/ADCensus_Build/lib/Debug/convert.lib and object D:/RQRunning/ColorCorrection/ZWJ/Disparity/ADCensus-master/ADCensus_Build/lib/Debug/convert.exp
+         convert.vcxproj -> D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_Build\bin\Debug\convert.exe
+     1>Done Building Project "D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_Build\convert\convert.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.02

@@ -1,0 +1,26 @@
+﻿Build started 2016/2/28 19:50:51.
+     1>Project "D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_Build\libIO\IO.vcxproj" on node 4 (Rebuild target(s)).
+     1>CustomBuild:
+         Building Custom Rule D:/RQRunning/ColorCorrection/ZWJ/Disparity/ADCensus-master/ADCensus_CMake/libIO/CMakeLists.txt
+         CMake does not need to re-run because D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_Build\libIO\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I"D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\libIO\..\3rdParty\tiff" /I"D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\libIO\..\3rdParty\png" /I"D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\libIO\.." /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"IO.dir\Debug\\" /Fd"IO.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt "D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\libIO\io_tiff.c" "D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\libIO\io_png.c" "D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\libIO\draw.c"
+         io_tiff.c
+         io_png.c
+     1>D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\libIO\io_png.c(171): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+     1>D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\libIO\io_png.c(579): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+     1>D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_CMake\libIO\io_png.c(676): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         draw.c
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\Lib.exe /OUT:"D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_Build\lib\Debug\IO.lib" /NOLOGO /MACHINE:X64 IO.dir\Debug\io_tiff.obj
+         IO.dir\Debug\io_png.obj
+         IO.dir\Debug\draw.obj
+         IO.vcxproj -> D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_Build\lib\Debug\IO.lib
+     1>Done Building Project "D:\RQRunning\ColorCorrection\ZWJ\Disparity\ADCensus-master\ADCensus_Build\libIO\IO.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.38

@@ -1,0 +1,1 @@
+SSCA.exe GRD BOX WM 0.5 ../data_cc/Aloe/view1.png ../data_cc/Aloe/view5E1_GL.png ../data_cc/Aloe/disp_region_view5E1_GL.png ../data_cc/Aloe/disp_r_region_view5E1_GL.png 270 1

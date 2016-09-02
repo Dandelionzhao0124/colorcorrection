@@ -1,0 +1,10 @@
+﻿Build started 2016/4/26 20:40:57.
+     1>Project "H:\intrinsic_image_work_record\code\MatchesRefine\build\ALL_BUILD.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule H:/intrinsic_image_work_record/code/MatchesRefine/source/CMakeLists.txt
+         CMake does not need to re-run because H:\intrinsic_image_work_record\code\MatchesRefine\build\CMakeFiles\generate.stamp is up-to-date.
+     1>Done Building Project "H:\intrinsic_image_work_record\code\MatchesRefine\build\ALL_BUILD.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.44

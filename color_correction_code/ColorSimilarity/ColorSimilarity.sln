@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ColorSimilarity", "ColorSimilarity\ColorSimilarity.vcxproj", "{67C858CB-1285-4C9E-BBF1-AEEC5C0D9FBE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67C858CB-1285-4C9E-BBF1-AEEC5C0D9FBE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{67C858CB-1285-4C9E-BBF1-AEEC5C0D9FBE}.Debug|Win32.Build.0 = Debug|Win32
+		{67C858CB-1285-4C9E-BBF1-AEEC5C0D9FBE}.Release|Win32.ActiveCfg = Release|Win32
+		{67C858CB-1285-4C9E-BBF1-AEEC5C0D9FBE}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,9 @@
+D:/RQRunning/ColorCorrection/ZWJ/Disparity/ADCensus-master/ADCensus_Build/3rdParty/zlib/CMakeFiles/ALL_BUILD.dir
+D:/RQRunning/ColorCorrection/ZWJ/Disparity/ADCensus-master/ADCensus_Build/libIO/CMakeFiles/IO.dir
+D:/RQRunning/ColorCorrection/ZWJ/Disparity/ADCensus-master/ADCensus_Build/libStereo/CMakeFiles/Stereo.dir
+D:/RQRunning/ColorCorrection/ZWJ/Disparity/ADCensus-master/ADCensus_Build/CMakeFiles/ZERO_CHECK.dir
+D:/RQRunning/ColorCorrection/ZWJ/Disparity/ADCensus-master/ADCensus_Build/convert/CMakeFiles/convert.dir
+D:/RQRunning/ColorCorrection/ZWJ/Disparity/ADCensus-master/ADCensus_Build/3rdParty/png/CMakeFiles/png.dir
+D:/RQRunning/ColorCorrection/ZWJ/Disparity/ADCensus-master/ADCensus_Build/stereoDense/CMakeFiles/stereoDense.dir
+D:/RQRunning/ColorCorrection/ZWJ/Disparity/ADCensus-master/ADCensus_Build/3rdParty/tiff/CMakeFiles/tiff.dir
+D:/RQRunning/ColorCorrection/ZWJ/Disparity/ADCensus-master/ADCensus_Build/3rdParty/zlib/CMakeFiles/zlib.dir
